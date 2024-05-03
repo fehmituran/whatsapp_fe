@@ -12,8 +12,6 @@ function App() {
   const { user } = useSelector((state) => state.user);
   const { token } = user;
 
-  console.log(user, token);
-
   return (
     <div className="dark">
       <Routes>
